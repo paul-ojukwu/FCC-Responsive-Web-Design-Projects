@@ -1,0 +1,69 @@
+html {
+	background-color: PaleTurquoise;
+}
+
+body {
+	font-family:  Lato;
+	font-weight: 300;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#title {
+	text-align: center;
+}
+
+.clearfix: after {
+	content: " ";
+	dipslay: table;
+	clear: both;
+}
+
+#container {
+	background-color: white;
+	padding-top: 15px;
+	padding-right: 5%;
+	padding-left: 5%;
+	border-radius: 5px;
+}
+
+#description {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+input[type = text],  input[type = email], input[type = number], select  {
+	padding: 10px;
+	margin-top: 16px;
+	margin-bottom: 25px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+
+input[type = radio], input[type = checkbox] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+textarea {
+	height: 50px;
+	width: 75%;
+	border: 1px solid #ccc;
+}
+
+button {
+	align: center;
+	background-color: DeepSkyBlue;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	position: relative;
+	left: 30%;
+	height: 40px;
+	width: 100px;
+	color: white;
+	border: 1px solid DeepSkyBlue;
+	border-radius: 4px;
+	font-size: 16px;
+	
+}
+    
